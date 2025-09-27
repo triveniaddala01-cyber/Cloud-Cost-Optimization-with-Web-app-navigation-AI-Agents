@@ -1,0 +1,15 @@
+{
+  "short_name": "Cloud Cost",
+  "name": "Cloud Cost Management",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

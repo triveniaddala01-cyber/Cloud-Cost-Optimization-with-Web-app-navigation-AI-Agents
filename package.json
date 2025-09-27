@@ -1,0 +1,25 @@
+{
+  "name": "cloud-cost-optimizer",
+  "version": "1.0.0",
+  "description": "Cloud cost optimization application",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "keywords": [
+    "cloud",
+    "cost",
+    "optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^7.3.2"
+  }
+}
